@@ -1,0 +1,6 @@
+{
+  "version": "4.10.1",
+  "deb": "adshield_4.10.1_all.deb",
+  "sha256": "916bfe79f2ed584d2e699244ec5cca3af95f7b44f1463cdfb582362aaca60a94",
+  "notes": "Update-Fenster mit Restzeit und Fehlermeldungen"
+}
