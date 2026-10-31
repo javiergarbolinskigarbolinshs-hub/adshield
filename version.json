@@ -1,6 +1,6 @@
 {
-  "version": "4.11.0",
-  "deb": "adshield_4.11.0_all.deb",
-  "sha256": "dfa4d02968ee2ec7bd3bf0eed1ddea15bb85808b51e66f86dc5adfb8347be903",
-  "notes": "YouTube: Werbung schneller und gründlicher überspringen"
+  "version": "4.11.1",
+  "deb": "adshield_4.11.1_all.deb",
+  "sha256": "e095abfda554af54ac8a74f2dcbdab531ef97a59e8c05c8fe567e1cb4fa8a654",
+  "notes": "Eigene Update-Melodie, YouTube-Skip schneller"
 }
