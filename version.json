@@ -1,6 +1,6 @@
 {
-  "version": "4.10.3",
-  "deb": "adshield_4.10.3_all.deb",
-  "sha256": "e9f9d6c0870d765c3cd3c6454090ca934fec5be44204462feeeef51a4aa1ebe1",
-  "notes": "Test-Update: neues Update-Fenster"
+  "version": "4.11.0",
+  "deb": "adshield_4.11.0_all.deb",
+  "sha256": "dfa4d02968ee2ec7bd3bf0eed1ddea15bb85808b51e66f86dc5adfb8347be903",
+  "notes": "YouTube: Werbung schneller und gründlicher überspringen"
 }
