@@ -1,6 +1,6 @@
 {
-  "version": "4.10.1",
-  "deb": "adshield_4.10.1_all.deb",
-  "sha256": "916bfe79f2ed584d2e699244ec5cca3af95f7b44f1463cdfb582362aaca60a94",
-  "notes": "Update-Fenster mit Restzeit und Fehlermeldungen"
+  "version": "4.10.3",
+  "deb": "adshield_4.10.3_all.deb",
+  "sha256": "e9f9d6c0870d765c3cd3c6454090ca934fec5be44204462feeeef51a4aa1ebe1",
+  "notes": "Test-Update: neues Update-Fenster"
 }
