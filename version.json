@@ -2,5 +2,7 @@
   "version": "4.11.1",
   "deb": "adshield_4.11.1_all.deb",
   "sha256": "e095abfda554af54ac8a74f2dcbdab531ef97a59e8c05c8fe567e1cb4fa8a654",
-  "notes": "Eigene Update-Melodie, YouTube-Skip schneller"
+  "notes": "Eigene Update-Melodie, YouTube-Skip schneller",
+  "win_zip": "adshield-windows_4.11.1.zip",
+  "win_sha256": "d36c9908265da611f60b6dd080d5b1afc89ca9785d4852db5d27af1da3b2b6df"
 }

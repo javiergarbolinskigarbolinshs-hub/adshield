@@ -10,7 +10,8 @@ täglichen Filter-Updates und Update-Funktion.
 - ✅ Chromium (eigenes AdShield-Fenster)
 - ⚠️ Brave: nicht getestet
 - ⚠️ Fedora, openSUSE, Arch: .deb nicht direkt installierbar
-- ❌ Windows, macOS, Chromebook, Android, iOS, Firefox, Safari
+- ⚠️ Windows 10/11 mit Google Chrome: neu, noch nicht auf echtem Windows getestet
+- ❌ macOS, Chromebook, Android, iOS, Firefox, Safari
 
 ## Neue Version veröffentlichen
 ```
