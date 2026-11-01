@@ -21,4 +21,10 @@ cat > version.json <<JSON
 JSON
 sed -i "s#adshield-windows_[0-9.]*\.zip#$WINZIP#g" index.html
 sed -i "s/Aktuelle Version: <b>[^<]*<\/b>/Aktuelle Version: <b>$VER<\/b>/; s#adshield_[0-9.]*_all.deb#$(basename "$DEB")#g" index.html
+# Alte Versionen entfernen, nur die neueste bleibt
+for f in adshield_*_all.deb adshield-windows_*.zip; do
+  [ "$f" = "$(basename "$DEB")" ] && continue
+  [ "$f" = "$WINZIP" ] && continue
+  rm -f "$f"
+done
 echo "Fertig: Version $VER. Jetzt hochladen:  git add . && git commit -m 'Version $VER' && git push"
