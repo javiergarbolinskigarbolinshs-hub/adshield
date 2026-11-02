@@ -9,12 +9,16 @@ main{max-width:680px;margin:0 auto;padding:48px 16px}
 h1{font-size:2.2rem;margin:.2em 0}.sub{color:var(--mut)}
 .btn{display:inline-block;margin:20px 0;padding:14px 26px;border-radius:12px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-weight:700;text-decoration:none}
 ol li{margin:.5em 0}table{width:100%;border-collapse:collapse;margin:12px 0}td,th{text-align:left;padding:8px 10px;border-top:1px solid rgba(127,127,160,.3);vertical-align:top}.ok{color:#22c55e}.mid{color:#f5b301}.no{color:#ef4444}
+.dl{display:flex;flex-wrap:wrap;gap:12px}.dl .btn{margin:20px 0 4px}
 code{background:rgba(127,127,160,.2);padding:2px 6px;border-radius:5px}
 </style></head><body><main>
 <h1>🛡 AdShield</h1>
 <p class="sub">Werbeblocker für Google Chrome auf Linux und Windows – mit Tutorial, Status-Ampel, Deutsch/Englisch und automatischen Filter-Updates.</p>
-<a class="btn" href="adshield_4.11.1_all.deb">AdShield herunterladen</a>
-<p class="sub">Aktuelle Version: <b>4.11.1</b></p>
+<div class="dl">
+<a class="btn" href="adshield_4.11.1_all.deb">🐧 Für Linux herunterladen</a>
+<a class="btn" href="adshield-windows_4.11.1.zip">🪟 Für Windows herunterladen</a>
+</div>
+<p class="sub">Aktuelle Version: <b>4.11.1</b> – für Linux (.deb) und Windows 10/11 (ZIP), jeweils mit Google Chrome.</p>
 <h2>Neu in Version 4.11.1</h2>
 <ul>
 <li>🪟 <b>AdShield gibt es jetzt auch für Windows 10/11</b> (mit Google Chrome) – weiter unten im Abschnitt „Windows“.</li>
@@ -29,21 +33,21 @@ code{background:rgba(127,127,160,.2);padding:2px 6px;border-radius:5px}
 <tr><td>Dasselbe mit <b>Chromium</b></td><td class="ok">✅ geht – AdShield öffnet dann ein eigenes Fenster</td></tr>
 <tr><td><b>Brave</b></td><td class="mid">⚠️ nicht getestet</td></tr>
 <tr><td>Fedora, openSUSE, Arch, Manjaro</td><td class="mid">⚠️ die .deb-Datei lässt sich dort nicht direkt installieren</td></tr>
-<tr><td><b>Windows 10 / 11</b> mit Google Chrome</td><td class="mid">⚠️ neu – noch wenig getestet (siehe unten)</td></tr>
+<tr><td><b>Windows 10 / 11</b> mit Google Chrome</td><td class="ok">✅ verfügbar (Beta – neu, wird noch getestet, siehe unten)</td></tr>
 <tr><td>macOS</td><td class="no">❌ kein Installer</td></tr>
 <tr><td>Chromebook, Android, iPhone, iPad</td><td class="no">❌ nicht unterstützt</td></tr>
 <tr><td>Firefox, Safari</td><td class="no">❌ nicht unterstützt (AdShield ist eine Chrome-Erweiterung)</td></tr>
 </table>
-<p class="sub">Du brauchst eine aktuelle Version von Google Chrome und einen Linux-Computer mit Internet. Für die Aktualisierung fragt AdShield einmal nach deinem Passwort.</p>
+<p class="sub">Du brauchst eine aktuelle Version von Google Chrome und einen Linux- oder Windows-Computer mit Internet. Unter Linux fragt AdShield für die Aktualisierung einmal nach deinem Passwort.</p>
 
 <h2>Windows</h2>
-<p><a class="btn" href="adshield-windows_4.11.1.zip">AdShield für Windows herunterladen</a></p>
+<p><a class="btn" href="adshield-windows_4.11.1.zip">🪟 AdShield für Windows herunterladen</a></p>
 <ol>
 <li>Die ZIP-Datei <b>entpacken</b> (Rechtsklick → „Alle extrahieren“).</li>
 <li>Im neuen Ordner <b>AdShield-Installieren.bat</b> doppelklicken. Wenn Windows warnt, auf „Weitere Informationen“ und „Trotzdem ausführen“ klicken.</li>
 <li>Danach liegt ein AdShield-Symbol auf dem Desktop. Es führt dich einmal durch das Hinzufügen in Google Chrome (Entwicklermodus einschalten, „Entpackte Erweiterung laden“, Ordner wählen).</li>
 </ol>
-<p class="sub">Ehrlich gesagt: Die Windows-Version wurde noch nicht auf einem echten Windows-Computer getestet. Chrome fragt unter Windows beim Start manchmal, ob Erweiterungen im Entwicklermodus deaktiviert werden sollen – einfach schließen, AdShield bleibt aktiv. Aktualisierungen laufen wie unter Linux: AdShield fragt beim Start „Jetzt aktualisieren – Ja oder Nein?“.</p>
+<p class="sub">Die Windows-Version ist neu (Beta). Sie wurde noch auf keinem echten Windows-Computer von uns geprüft – wenn etwas nicht klappt, bitte melden, dann wird es repariert. Chrome fragt unter Windows beim Start manchmal, ob Erweiterungen im Entwicklermodus deaktiviert werden sollen – einfach schließen, AdShield bleibt aktiv. Aktualisierungen laufen wie unter Linux: AdShield fragt beim Start „Jetzt aktualisieren – Ja oder Nein?“.</p>
 
 <h2>Einrichten – Schritt für Schritt (Linux)</h2>
 <ol>
