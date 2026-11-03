@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AdShield – Werbeblocker für Linux und Windows</title>
+<title>AdShield – Werbeblocker für Linux, Windows und Mac</title>
 <style>
 :root{--bg:#0b0b14;--fg:#e8e8f5;--mut:#9a9ab5;--acc:#8b6cff;--acc2:#22d3ee}
 @media (prefers-color-scheme:light){:root{--bg:#f6f6fb;--fg:#15152a;--mut:#5b5b78}}
@@ -13,15 +13,17 @@ ol li{margin:.5em 0}table{width:100%;border-collapse:collapse;margin:12px 0}td,t
 code{background:rgba(127,127,160,.2);padding:2px 6px;border-radius:5px}
 </style></head><body><main>
 <h1>🛡 AdShield</h1>
-<p class="sub">Werbeblocker für Google Chrome auf Linux und Windows – mit Tutorial, Status-Ampel, Deutsch/Englisch und automatischen Filter-Updates.</p>
+<p class="sub">Werbeblocker für Google Chrome auf Linux, Windows und Mac – mit Tutorial, Status-Ampel, Deutsch/Englisch und automatischen Filter-Updates.</p>
 <div class="dl">
 <a class="btn" href="adshield_4.11.1_all.deb">🐧 Für Linux herunterladen</a>
 <a class="btn" href="adshield-windows_4.11.1.zip">🪟 Für Windows herunterladen</a>
+<a class="btn" href="adshield-macos_4.11.1.zip">🍎 Für Mac herunterladen</a>
 </div>
-<p class="sub">Aktuelle Version: <b>4.11.1</b> – für Linux (.deb) und Windows 10/11 (ZIP), jeweils mit Google Chrome.</p>
+<p class="sub">Aktuelle Version: <b>4.11.1</b> – für Linux (.deb), Windows 10/11 (ZIP) und macOS 11 oder neuer (ZIP), jeweils mit Google Chrome.</p>
 <h2>Neu in Version 4.11.1</h2>
 <ul>
 <li>🪟 <b>AdShield gibt es jetzt auch für Windows 10/11</b> (mit Google Chrome) – weiter unten im Abschnitt „Windows“.</li>
+<li>🍎 <b>Und für den Mac</b> (macOS 11 oder neuer, mit Google Chrome) – Abschnitt „Mac“.</li>
 <li>🔄 Die Frage „Jetzt aktualisieren – Ja oder Nein?“ gibt es jetzt auch unter Windows.</li>
 <li>🎬 YouTube-Werbung wird schneller übersprungen.</li>
 <li>🕵️ Bessere Tarnung gegen Seiten, die Werbeblocker erkennen.</li>
@@ -34,11 +36,11 @@ code{background:rgba(127,127,160,.2);padding:2px 6px;border-radius:5px}
 <tr><td><b>Brave</b></td><td class="mid">⚠️ nicht getestet</td></tr>
 <tr><td>Fedora, openSUSE, Arch, Manjaro</td><td class="mid">⚠️ die .deb-Datei lässt sich dort nicht direkt installieren</td></tr>
 <tr><td><b>Windows 10 / 11</b> mit Google Chrome</td><td class="ok">✅ verfügbar (Beta – neu, wird noch getestet, siehe unten)</td></tr>
-<tr><td>macOS</td><td class="no">❌ kein Installer</td></tr>
+<tr><td><b>macOS 11</b> oder neuer mit Google Chrome</td><td class="ok">✅ verfügbar (Beta – neu, wird noch getestet, siehe unten)</td></tr>
 <tr><td>Chromebook, Android, iPhone, iPad</td><td class="no">❌ nicht unterstützt</td></tr>
 <tr><td>Firefox, Safari</td><td class="no">❌ nicht unterstützt (AdShield ist eine Chrome-Erweiterung)</td></tr>
 </table>
-<p class="sub">Du brauchst eine aktuelle Version von Google Chrome und einen Linux- oder Windows-Computer mit Internet. Unter Linux fragt AdShield für die Aktualisierung einmal nach deinem Passwort.</p>
+<p class="sub">Du brauchst eine aktuelle Version von Google Chrome und einen Linux-, Windows- oder Mac-Computer mit Internet. Unter Linux fragt AdShield für die Aktualisierung einmal nach deinem Passwort.</p>
 
 <h2>Windows</h2>
 <p><a class="btn" href="adshield-windows_4.11.1.zip">🪟 AdShield für Windows herunterladen</a></p>
@@ -48,6 +50,17 @@ code{background:rgba(127,127,160,.2);padding:2px 6px;border-radius:5px}
 <li>Danach liegt ein AdShield-Symbol auf dem Desktop. Es führt dich einmal durch das Hinzufügen in Google Chrome (Entwicklermodus einschalten, „Entpackte Erweiterung laden“, Ordner wählen).</li>
 </ol>
 <p class="sub">Die Windows-Version ist neu (Beta). Sie wurde noch auf keinem echten Windows-Computer von uns geprüft – wenn etwas nicht klappt, bitte melden, dann wird es repariert. Chrome fragt unter Windows beim Start manchmal, ob Erweiterungen im Entwicklermodus deaktiviert werden sollen – einfach schließen, AdShield bleibt aktiv. Aktualisierungen laufen wie unter Linux: AdShield fragt beim Start „Jetzt aktualisieren – Ja oder Nein?“.</p>
+
+<h2>Mac</h2>
+<p><a class="btn" href="adshield-macos_4.11.1.zip">🍎 AdShield für Mac herunterladen</a></p>
+<ol>
+<li>Die ZIP-Datei entpacken (Doppelklick) und <b>AdShield.app</b> in den Ordner <b>Programme</b> ziehen.</li>
+<li><b>Erster Start:</b> AdShield ist nicht bei Apple signiert, darum blockt der Mac es einmal.<br>
+macOS 14 oder älter: <b>Rechtsklick</b> auf AdShield → <b>Öffnen</b> → <b>Öffnen</b>.<br>
+macOS 15 oder neuer: Doppelklick (wird abgelehnt), dann <b>Systemeinstellungen → Datenschutz &amp; Sicherheit → „Trotzdem öffnen“</b>.</li>
+<li>AdShield erklärt dann einmal, wie es in Google Chrome hinzugefügt wird (Entwicklermodus, „Entpackte Erweiterung laden“, Ordner „AdShield“ im Benutzerordner).</li>
+</ol>
+<p class="sub">Die Mac-Version ist neu (Beta) und wurde noch auf keinem echten Mac von uns geprüft – wenn etwas nicht klappt, bitte melden. Aktualisierungen laufen wie überall: AdShield fragt beim Start „Jetzt aktualisieren – Ja oder Nein?“, der Fortschritt erscheint als Mitteilung oben rechts. Safari und Firefox werden nicht unterstützt – AdShield ist eine Chrome-Erweiterung.</p>
 
 <h2>Einrichten – Schritt für Schritt (Linux)</h2>
 <ol>

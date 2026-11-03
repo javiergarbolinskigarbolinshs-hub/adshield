@@ -4,5 +4,7 @@
   "sha256": "e095abfda554af54ac8a74f2dcbdab531ef97a59e8c05c8fe567e1cb4fa8a654",
   "notes": "Eigene Update-Melodie, YouTube-Skip schneller",
   "win_zip": "adshield-windows_4.11.1.zip",
-  "win_sha256": "d36c9908265da611f60b6dd080d5b1afc89ca9785d4852db5d27af1da3b2b6df"
+  "win_sha256": "d36c9908265da611f60b6dd080d5b1afc89ca9785d4852db5d27af1da3b2b6df",
+  "mac_zip": "adshield-macos_4.11.1.zip",
+  "mac_sha256": "4eebe199337127cc9670d26d7a215ebd911d7aae389a0710a1513573836a6d6c"
 }
